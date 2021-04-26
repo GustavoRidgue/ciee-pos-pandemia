@@ -17,8 +17,6 @@
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <header class="text-center mx-3">
@@ -49,22 +47,10 @@
 		</div>
 	</article>
 
-	<footer id="rodape" class="mx-3">
+	<footer id="rodape" class="mx-3 mt-5">
 		<div class="text-center">
 			<strong>Integrantes do Grupo 1:</strong><p>Marcos, Sara, Gustavo, Geovanna, João e David</p>
 		</div>
 	</footer>	
-
-	<script>
-		$(document).ready(function() {
-
-		    var docHeight = $(window).height();
-		    var footerHeight = $('#rodape').height();
-		    var footerTop = $('#rodape').position().top + footerHeight;
-
-		    if (footerTop < docHeight)
-		        $('#rodape').css('margin-top', (docHeight - footerTop) + 'px');
-		});
-	</script>
 </body>
 </html>
