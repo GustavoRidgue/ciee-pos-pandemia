@@ -1,0 +1,11 @@
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7MmkPYmLc80dez5w10PUT1FqfjJw2_Z0UJg&usqp=CAU");
+}
+
+.texto-cursivo {
+  font-family: 'Lobster', cursive;
+}
+
+.texto-azul {
+  color: #004695;
+}
